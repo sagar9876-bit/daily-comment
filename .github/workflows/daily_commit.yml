@@ -3,7 +3,7 @@ on:
   schedule:
     - cron: '0 18 * * *'  # Runs at 6 PM UTC daily
     - cron: '0 17 * * *'  # Runs at 5 PM UTC daily
-    - cron: '0 19 * * *'  # Runs at 7 PM UTC daily
+    - cron: '0 09 * * *'  # Runs at 7 PM UTC daily
   workflow_dispatch:  # Allows manual triggering
 jobs:
   commit:
